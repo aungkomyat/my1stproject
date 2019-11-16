@@ -1,0 +1,9 @@
+echo "# my1stproject" >> README.md
+git init
+//git add README.md
+//git cdgit commit -m "first commit"
+git remote add origin https://github.com/NweNiOoWai/my1stproject.git
+git push -u origin master
+
+git remote add origin https://github.com/NweNiOoWai/my1stproject.git
+git push -u origin master
