@@ -7,3 +7,5 @@ git push -u origin master
 
 git remote add origin https://github.com/NweNiOoWai/my1stproject.git
 git push -u origin master
+
+Git Testing HMS!!
