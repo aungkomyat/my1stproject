@@ -1,0 +1,101 @@
+Microsoft Windows [Version 10.0.18362.476]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>cd desktop
+
+C:\Users\DELL\Desktop>git clone https://github.com/NweNiOoWai/my1stproject
+Cloning into 'my1stproject'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 12 (delta 1), reused 12 (delta 1), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+
+C:\Users\DELL\Desktop>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2019.png
+        72315274_2720331747979591_2037297915583528960_n.jpg
+        72923378_792941957804104_6600578381274677248_n.jpg
+        72943805_537426353492802_2976287064816877568_n.jpg
+        922a0f59-ad8e-460e-a58d-c2694686e72b_kbz-bank-office-yangon.jpg
+        AlphaZawgyiUnicodeSystem.lnk
+        BRD for Hlu Dann.docx
+        Benefits of Hlu Dann.docx
+        Classroom Module.txt
+        Converter/
+        Dictionary/
+        GitTesting/
+        HLu Dann Bag.png
+        Hlu Dann Business Requirements.docx
+        IE Tools/
+        Internet Download Manager.lnk
+        KBZ Connect Power Point.pptx
+        KBZ Connect.pptx
+        Keyboard Test Portable.exe
+        MSDT.txt
+        Microsoft Edge.lnk
+        Photoshop.lnk
+        Players/
+        Postman.lnk
+        Presentation Points.docx
+        Question-Mark-Picture.jpg
+        Reporting Writing for KBZ Connect.docx
+        Screen-Shot-2016-05-06-at-2.10.22-PM-copy-e1462538020958.jpg
+        Search Everything.lnk
+        TestDir/
+        TestGit/
+        WhizzoTypingTutor.lnk
+        a3fba1d7c721cfad570d72cdcdece558.jpg
+        chaungthar.jpg
+        desktop.ini
+        hms.jpg
+        images.jpg
+        images11.jpg
+        images111.jpg
+        index.png
+        kbz_1.jpg
+        many-thanks.jpg
+        my1stproject/
+        question-mark-stockimage.jpg
+        thank.jpg
+        unnamed.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\DELL\Desktop>git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/.git/
+
+C:\Users\DELL\Desktop>cd my1stproject
+
+C:\Users\DELL\Desktop\my1stproject>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        q.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\DELL\Desktop\my1stproject>git add q.jpg
+
+C:\Users\DELL\Desktop\my1stproject>git commit -m "from HMS"
+[master ab53926] from HMS
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 q.jpg
+
+C:\Users\DELL\Desktop\my1stproject>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 6.75 KiB | 3.38 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/NweNiOoWai/my1stproject
+   a8b49af..ab53926  master -> master
+
+C:\Users\DELL\Desktop\my1stproject>
